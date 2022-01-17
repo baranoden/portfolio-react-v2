@@ -1,0 +1,28 @@
+.portfolio__card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  border: 4px solid white;
+  padding: 10px;
+  background-color: black;
+}
+.portfolio__card img {
+  width: 30%;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.portfolio__card p {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  margin: 1rem;
+}
+.portfolio__card h5 {
+  font-size: 12px;
+  line-height: 35px;
+  color: white;
+  margin: 1rem;
+}

@@ -1,0 +1,47 @@
+.portfolio__header {
+  font-family: var(--font-family);
+
+  width: 100%;
+  position: absolute;
+}
+nav {
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.portfolio__logo {
+  margin-left: 1rem;
+}
+.portfolio__logo h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: var(--color-text);
+}
+
+.portfolio__ul-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.portfolio__ul-items li {
+  margin-right: 3.5rem;
+}
+.portfolio__ul-items li a {
+  color: var(--color-link);
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.1s;
+}
+.portfolio__ul-items li a:hover {
+  border-bottom: 3px solid black;
+}
+
+.portfolio__hamburger {
+  display: flex;
+}
+.portfolio__hamburger .portfolio__menu {
+  font-size: 30px;
+  color: var(--color-link);
+  cursor: pointer;
+}
